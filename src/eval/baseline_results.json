@@ -1,0 +1,127 @@
+{
+  "results": [
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": true,
+      "full_match": true,
+      "case_id": "easy_01",
+      "difficulty": "easy",
+      "predicted_hs6": "6205.20",
+      "correct_hs6": "6205.20",
+      "description": "Men's woven cotton shirt, long sleeve, button front, 100% cotton fabric"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": true,
+      "full_match": true,
+      "case_id": "easy_02",
+      "difficulty": "easy",
+      "predicted_hs6": "0202.30",
+      "correct_hs6": "0202.30",
+      "description": "Frozen boneless beef cuts, imported for retail sale"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": false,
+      "full_match": false,
+      "case_id": "easy_03",
+      "difficulty": "easy",
+      "predicted_hs6": "4015.11",
+      "correct_hs6": "4015.19",
+      "description": "Natural rubber latex gloves, disposable, for medical examination use"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": true,
+      "full_match": true,
+      "case_id": "med_01",
+      "difficulty": "medium",
+      "predicted_hs6": "8518.22",
+      "correct_hs6": "8518.22",
+      "description": "Portable wireless Bluetooth speaker with built-in rechargeable lithium-ion battery, ABS plastic housing, rated output 10W, waterproof IPX7"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": false,
+      "full_match": false,
+      "case_id": "med_02",
+      "difficulty": "medium",
+      "predicted_hs6": "8708.3",
+      "correct_hs6": "8708.30",
+      "description": "Cast iron ventilated disc brake rotor, diameter 330mm, for heavy-duty commercial truck, new replacement part"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": true,
+      "full_match": true,
+      "case_id": "med_03",
+      "difficulty": "medium",
+      "predicted_hs6": "8507.60",
+      "correct_hs6": "8507.60",
+      "description": "Lithium-ion battery pack, 48V 13Ah, for electric bicycle, with battery management system"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": false,
+      "full_match": false,
+      "case_id": "med_04",
+      "difficulty": "medium",
+      "predicted_hs6": "9617.",
+      "correct_hs6": "9617.00",
+      "description": "Stainless steel insulated vacuum water bottle, 500ml capacity, double wall construction"
+    },
+    {
+      "chapter_match": false,
+      "heading_match": false,
+      "subheading_match": false,
+      "full_match": false,
+      "case_id": "hard_01",
+      "difficulty": "hard",
+      "predicted_hs6": "8517.6",
+      "correct_hs6": "8471.49",
+      "description": "Smart home hub device with 7-inch LCD touchscreen display, built-in speaker and microphone, WiFi and Zigbee connectivity, runs voice assistant software, controls smart home devices, can make video calls and stream music"
+    },
+    {
+      "chapter_match": true,
+      "heading_match": true,
+      "subheading_match": false,
+      "full_match": false,
+      "case_id": "hard_02",
+      "difficulty": "hard",
+      "predicted_hs6": "8443.3",
+      "correct_hs6": "8443.31",
+      "description": "Multifunction laser printer with scan, copy, fax, and print capabilities, Ethernet and WiFi connectivity, A4 paper, 30 pages per minute"
+    },
+    {
+      "chapter_match": false,
+      "heading_match": false,
+      "subheading_match": false,
+      "full_match": false,
+      "case_id": "hard_03",
+      "difficulty": "hard",
+      "predicted_hs6": "8517.6",
+      "correct_hs6": "9102.12",
+      "description": "GPS-enabled smartwatch with heart rate monitor, accelerometer, barometric altimeter, Bluetooth, touchscreen AMOLED display, 5ATM water resistance, runs third-party applications"
+    }
+  ],
+  "scores": {
+    "total_cases": 10,
+    "chapter_accuracy": 0.8,
+    "heading_accuracy": 0.8,
+    "subheading_accuracy": 0.4,
+    "full_accuracy": 0.4,
+    "easy_heading_accuracy": 1.0,
+    "easy_subheading_accuracy": 0.6666666666666666,
+    "medium_heading_accuracy": 1.0,
+    "medium_subheading_accuracy": 0.5,
+    "hard_heading_accuracy": 0.3333333333333333,
+    "hard_subheading_accuracy": 0.0
+  }
+}

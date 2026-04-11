@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/hts/
+data/cross/
+data/indexes/
+*.egg-info/
+dist/
+build/
+.streamlit/secrets.toml
