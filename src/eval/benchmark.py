@@ -169,6 +169,10 @@ def print_benchmark_report(results: list[dict], scores: dict):
     print("-" * 70)
     for r in results:
         status = "PASS" if r["heading_match"] else "FAIL"
-        print(f"  [{status}] {r['case_id']:10s} | predicted={r.get('predicted_hs6', '?'):10s} | correct={r['correct_hs6']:10s} | {r['difficulty']}")
+        case_id = r.get('case_id', r.get('id', '?'))
+        predicted = r.get('predicted_hs6', r.get('predicted_subheading', '?'))
+        correct = r.get('correct_hs6', r.get('correct', '?'))
+        difficulty = r.get('difficulty', '?')
+        print(f"  [{status}] {case_id:10s} | predicted={predicted:10s} | correct={correct:10s} | {difficulty}")
 
     print("=" * 70)

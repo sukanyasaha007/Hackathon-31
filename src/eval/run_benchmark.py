@@ -17,7 +17,7 @@ from src.eval.benchmark import (
     compute_benchmark_scores,
     print_benchmark_report,
 )
-from src.config import GOOGLE_API_KEY, LLM_MODEL, LLM_BASE_URL
+from src.config import LLM_API_KEY, LLM_MODEL, LLM_BASE_URL
 
 
 def classify_baseline(client: OpenAI, description: str) -> str:
@@ -46,7 +46,7 @@ def classify_baseline(client: OpenAI, description: str) -> str:
 
 def run_baseline_benchmark():
     """Run all benchmark cases against the LLM baseline (no RAG)."""
-    client = OpenAI(api_key=GOOGLE_API_KEY, base_url=LLM_BASE_URL)
+    client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 
     results = []
     for case in BENCHMARK_CASES:
