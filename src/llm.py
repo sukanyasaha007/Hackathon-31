@@ -24,7 +24,7 @@ class LLMClient:
             base_url=base_url or LLM_BASE_URL,
         )
 
-    def generate(self, prompt: str, temperature: float = 0.1,
+    def generate(self, prompt: str, temperature: float = 0.0,
                  max_tokens: int = 2000, max_retries: int = 3) -> str:
         """Generate text with automatic retry on rate limits and model fallback."""
         for attempt in range(max_retries):
